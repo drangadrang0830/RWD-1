@@ -1,0 +1,23 @@
+*,*::after,*::before{
+    outline: 1px solid #000;
+    text-decoration: none;
+}
+.header{
+    background: #000;
+    color: #fff;
+}
+.toptab{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+.toptab .logo{
+    display: block;
+    background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/refs/heads/main/images/logo_w.png) no-repeat;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 120px;
+    height: 24px;
+}
