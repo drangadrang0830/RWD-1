@@ -83,3 +83,9 @@ table {
     font-size: 16px;
     color: #fff;
 }
+.toptab .switch a,.toptab .menu a{
+    padding: 20px 2%;
+}
+.menu{
+    display: none;
+}
