@@ -1,6 +1,7 @@
 *,*::after,*::before{
     outline: 1px solid #000;
     text-decoration: none;
+    font-family: MicrosoftJhengHeiRegular;
 }
 .container{
     max-width: 1024px;
@@ -29,4 +30,8 @@
    .toptab .logo{
     width: 94px;
    } 
+}
+.toptab .switch,.toptab .menu{
+    font-size: 16px;
+    color: #fff;
 }
