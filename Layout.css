@@ -19,7 +19,7 @@
 }
 .toptab .logo{
     display: block;
-    background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/refs/heads/main/images/logo_w.png) no-repeat cover;
+    background: url(https://github.com/drangadrang0830/RWD-1/blob/main/images/logo_w.png?raw=true) no-repeat cover;
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
