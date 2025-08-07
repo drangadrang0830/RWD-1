@@ -2,9 +2,13 @@
     outline: 1px solid #000;
     text-decoration: none;
 }
+.container{
+    max-width: 1024px;
+}
 .header{
     background: #000;
     color: #fff;
+    height: auto;
 }
 .toptab{
     position: relative;
@@ -14,10 +18,15 @@
 }
 .toptab .logo{
     display: block;
-    background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/refs/heads/main/images/logo_w.png) no-repeat;
+    background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/refs/heads/main/images/logo_w.png) no-repeat cover;
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
     width: 120px;
     height: 24px;
+}
+@media(max-width:768px){
+   .toptab .logo{
+    width: 94px;
+   } 
 }
