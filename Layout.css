@@ -67,17 +67,16 @@ table {
 }
 .toptab .logo{
     display: block;
-    background: url(https://github.com/drangadrang0830/RWD-1/blob/main/images/logo_w.png?raw=true) no-repeat cover;
+    background: url(/images/logo_w.png?raw=true) no-repeat;
+    background-size:cover;
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
     width: 120px;
     height: 24px;
 }
-@media(max-width:768px){
-   .toptab .logo{
-    width: 94px;
-   } 
+.toptab .showmenu{
+    display: none;
 }
 .toptab .menu{
     display: flex;
@@ -87,6 +86,20 @@ table {
 .toptab .menu a{
     padding: 20px 2%;
 }
-.showmenu{
-    display: none;
+@media(max-width:768px){
+   .toptab .logo{
+    width: 94px;
+} 
+}
+@media(max-width:360px){
+   .toptab .showmenu{
+    display: block;
+}
+.menu{
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 }
