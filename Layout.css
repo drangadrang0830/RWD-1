@@ -79,11 +79,12 @@ table {
     width: 94px;
    } 
 }
-.toptab .switch,.toptab .menu{
+.toptab .menu{
+    display: flex;
     font-size: 16px;
     color: #fff;
 }
-.toptab .switch a,.toptab .menu a{
+.toptab .menu a{
     padding: 20px 2%;
 }
 .menu{
