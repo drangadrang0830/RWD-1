@@ -161,12 +161,10 @@ html {
 a{
   text-decoration: none;
 }
-body{
-  background: #efe9e7;
-}
 .container{
   max-width: 1024px;
   margin: 0 auto;
+  background: #efe9e7;
 }
 .header{
   background: #000;
@@ -213,7 +211,8 @@ body{
 }
 .menu li a:hover{
   background: #FFF;
-  color: #000;}
+  color: #000;
+}
 @media(max-width:768px){
   .logo{
     width: 94px;
@@ -248,13 +247,13 @@ body{
   }
 }
 .banner{
-    height: 420px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/refs/heads/main/images/header_desktop.png) no-repeat;
-    background-size:cover;
-    background-position:70% 50%;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/refs/heads/main/images/header_desktop.png) no-repeat;
+  background-size:cover;
+  background-position:70% 50%;
 }
 .slogan{
   text-align: center;
@@ -367,5 +366,5 @@ body{
   .introduce,.contact,.socialmedia{
     width: 100%;
     margin-bottom: 30px;
-}
+  }
 }
