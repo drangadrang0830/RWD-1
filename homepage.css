@@ -1,0 +1,230 @@
+#feature{
+  color: #3D1101;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#feature h3{
+  width: 225px;
+  text-align: center;
+  padding: 50px 0 31px 0;
+  font-size: 20px;
+  line-height: 32px;
+  background: #efe9e7;
+  z-index: 2;
+}
+#feature .line{
+  width: 45%;
+  border: 1px solid #979797;
+  position: absolute;
+  top: 82px;
+  left: 27.5%;
+  z-index: 1;
+}
+#feature ul{
+  display: flex;
+  justify-content: space-around;  
+  margin-bottom: 50px;
+}
+#feature li{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#feature img{
+  border-radius:50%;
+  margin-bottom: 20px;
+}
+
+#feature h4{
+  text-align: center;
+font-size: 18px;
+color: #3D1101;
+  margin-bottom: 11px;
+}
+@media(max-width:768px){
+#feature li{
+  width: 30%;
+}
+}
+@media(max-width:640px){
+#feature ul{
+  flex-direction: column;
+  align-items: center;
+}
+  #feature li{
+  width: 80%;
+}
+}
+#chef{
+  background: #3D1101;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding:0 3%;
+}
+#chef img{
+  width: 45%;
+  height: 460px;
+}
+.experience{
+  width: 45%;
+  margin-right: 5%;
+}
+.experience h5{
+font-size: 20px;
+color: #EFE9E7;
+line-height: 32px;
+}
+.experience p{
+color: #EFE9E7;
+}
+@media(max-width:768px){
+  #chef img{
+  object-fit: cover;
+  object-position:right;
+}
+}
+@media(max-width:640px){
+#chef{
+  flex-direction: column;
+  align-items: center;
+}
+#chef img{
+  width: 70%;
+}
+ .experience{
+  width: 90%;
+     margin-right: 0;
+}
+}
+@media(max-width:480px){
+#chef img{
+  width: 100%;
+}
+}
+.Thoughts{
+  padding: 0 3%;
+  color: #3D1101;
+}
+.Thoughts h6{
+font-size: 24px;
+  margin: 50px 0;
+  text-align: center;
+}
+.Thoughts ul{
+  display: flex;
+  justify-content: space-between;
+}
+.Thoughts li{
+  width: 32%;
+  display: flex;
+}
+.Thoughts img{
+  border-radius:50%;
+  width: 67px;
+  height: 67px;
+  margin-right: 4%;
+}
+.Thoughts h7{
+  display: block;
+  font-size: 18px;
+  padding: 22px 0 19px ;
+}
+.Thoughts p{
+font-size: 16px;
+line-height: 24px;
+}
+.Thoughts .Aliases{
+  text-align: right;
+}
+@media(max-width:640px){
+.Thoughts ul{
+  flex-direction: column;
+  align-items: center;
+}
+.Thoughts li{
+  width: 100%;
+}  
+}
+#map{
+  padding: 0 3%;
+  color: #3D1101;  
+}
+#map h8{
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  margin: 50px 0 38px;
+}
+.form{
+  display: flex;
+  justify-content: space-between;
+}
+.form img{
+  width: 49%;
+  height: 386px;
+  object-fit: cover;
+}
+.form form{
+  width: 49%;
+  font-size: 14px;
+}
+.form label{
+  display: block;
+ padding: 3px 0;
+}
+#name,#tel,#email,#number{
+  box-sizing:border-box;
+  margin: 6px 0 12px;
+  width: 100%;
+  height: 32px;
+  border-radius:3px;
+  border-width:1px;
+}
+.form h9{
+display: block;
+}
+.form .Vegetarian{
+  margin: 0 36px 0 8px;
+}
+.form .button{
+  margin-top: 34px;
+  display: flex;
+  justify-content: flex-end;
+}
+.button button{
+  width: 70px;
+  height: 32px;
+  font-size: 14px;
+color: #FFFFFF;
+}
+.button .reset{
+  background: rgba(0,0,0,0.35);
+border-radius: 3px;
+}
+.button .reset:hover{
+  background: #000;
+}
+.button .submit{
+  background: #F56C23;
+border-radius: 3px;
+  margin-left: 11px;
+}
+.button .submit:hover{
+  background: #f00;
+}
+@media(max-width:640px){
+.form{
+  flex-direction: column;
+  align-items: center;
+}
+  .form img,.form form{
+  width: 90%;
+}
+  .form img{
+    object-position: left;
+  }
+}
