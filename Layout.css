@@ -47,11 +47,14 @@ table {
 	border-spacing: 0;
 }
 *,*::after,*::before{
-    /*outline: 1px solid #FFF;*/
-    font-family: MicrosoftJhengHeiRegular;
+  /*outline: 1px solid #FFF;*/
+  font-family: MicrosoftJhengHeiRegular;
+}
+html {
+  scroll-behavior: smooth;
 }
 a{
-      text-decoration: none;
+  text-decoration: none;
 }
 body{
   background: #efe9e7;
@@ -61,39 +64,39 @@ body{
   margin: 0 auto;
 }
 .header{
-    background: #000;
-    color: #fff;
+  background: #000;
+  color: #fff;
   height: auto;
-      position: relative;
+  position: relative;
 }
 .toptab{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo{
-    display: block;
-    background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/eee1f12c3f18d82c86f52e8bc367a238a16e20ee/images/logo_w%40svg.svg) no-repeat 50% 50% ;
-    background-size:contain;
-    text-indent: 101%;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 120px;
-    height: 24px;
+  display: block;
+  background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/eee1f12c3f18d82c86f52e8bc367a238a16e20ee/images/logo_w%40svg.svg) no-repeat 50% 50% ;
+  background-size:contain;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 120px;
+  height: 24px;
   margin-left: 4%;
 }
 .showmenu{
-    display: none;
-    color: #fff;
-    margin-right: 4%;
-     font-size: 24px;
-     padding: 16px 0;
+  display: none;
+  color: #fff;
+  margin-right: 4%;
+  font-size: 24px;
+  padding: 16px 0;
 }
 .menu-show .showmenu{
   color: #FF0000;
 }
 .menu{
-    display: flex;
+  display: flex;
   align-items: center;
   margin-right: 4%;
 }
@@ -104,50 +107,50 @@ body{
   color: #FFF;
 }
 .menu li a:hover{
-    background: #FFF;
-    color: #000;}
+  background: #FFF;
+  color: #000;}
 @media(max-width:768px){
-   .logo{
+  .logo{
     width: 94px;
-} 
+  } 
 }
 @media(max-width:360px){
   .showmenu{
     display: block;
-}
+  }
   .menu{
-   max-height:0; 
+    max-height:0; 
     overflow: hidden;
     flex-direction: column;
     align-items: stretch;
     text-align: center;
-     transition:max-height 1s;
+    transition:max-height 1s;
     position: absolute;
-      top:56px;
+    top:56px;
     left: 0;
-  right: 0;
-  z-index: 100;
-  background: #000;
+    right: 0;
+    z-index: 100;
+    background: #000;
     margin-right: 0;
   }
   .menu a{
-  padding: 19px 4px 20px;
-   border-top:1px dashed #FFF;
-  color: #FFF;
+    padding: 19px 4px 20px;
+    border-top:1px dashed #FFF;
+    color: #FFF;
+  }
+  .menu-show .menu{
+    max-height: 280px;
+  }
 }
-.menu-show .menu{
-  max-height: 280px;
-}
-}
-  .banner{
+.banner{
     height: 420px;
     display: flex;
     align-items: center;
     justify-content: center;
-background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/refs/heads/main/images/header_desktop.png) no-repeat;
-        background-size:cover;
+    background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/refs/heads/main/images/header_desktop.png) no-repeat;
+    background-size:cover;
     background-position:70% 50%;
-  }
+}
 .slogan{
   text-align: center;
   background:rgba(0,0,0,0.35);
@@ -165,24 +168,24 @@ background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/refs/hea
   padding-bottom: 26px;
 }
 @media(max-width:480px){
-.banner{
-background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/refs/heads/main/images/header_mobile.png) no-repeat;
-        background-size:cover;
+  .banner{
+    background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/refs/heads/main/images/header_mobile.png) no-repeat;
+    background-size:cover;
     background-position:50% 50%;
   }
   .slogan h1{
-  font-size: 36px;
-  padding: 21px 6px;
-}
-   .slogan h1 br{
-  display: block;
-}
+    font-size: 36px;
+    padding: 21px 6px;
+  }
+  .slogan h1 br{
+    display: block;
+  }
   .slogan p{
-  padding-bottom: 20px;
-}
+    padding-bottom: 20px;
+  }
 }
 @media(max-width:360px){
-    .banner{
+  .banner{
     transition:padding-top 1s;
     padding-top: 0px; 
   }
@@ -219,31 +222,34 @@ background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/refs/hea
   align-items: end;
 }
 .bottom-logo{
-    display: block;
-    background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/eee1f12c3f18d82c86f52e8bc367a238a16e20ee/images/logo_l%40svg.svg) no-repeat 50% 50% ;
-    background-size:contain;
-    text-indent: 101%;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 243px;
-    height: 48px;
+  display: block;
+  background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/eee1f12c3f18d82c86f52e8bc367a238a16e20ee/images/logo_l%40svg.svg) no-repeat 50% 50% ;
+  background-size:contain;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 243px;
+  height: 48px;
   margin-bottom: 22px;
 }
 .socialmedia ul{
   display: flex;
 }
 .socialmedia li{
-  margin: 8px 0 8px 11px;
+  margin: 8px 0 8px 12px;
+}
+.socialmedia img{
+  border-radius:5px;
 }
 @media(max-width:768px){
-.introduce,{
-  width: 30%;
-}
+  .introduce,{
+    width: 30%;
+  }
   .contact{
-  width: 35%;   
+    width: 35%;   
   }
   .socialmedia{
-   width: 25%;
+    width: 25%;
   }
 }
 @media(max-width:600px){
@@ -253,9 +259,8 @@ background: url(https://raw.githubusercontent.com/drangadrang0830/RWD-1/refs/hea
     padding: 0 8%;
     margin: 50px 0;
   }
-.introduce,.contact,socialmedia{
-  width: 100%;
-  margin-bottom: 30px;
+  .introduce,.contact,socialmedia{
+    width: 100%;
+    margin-bottom: 30px;
 }
-  
 }
